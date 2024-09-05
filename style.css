@@ -3,21 +3,23 @@ body {
     background-color: white;
     border: 5px solid #cdb4db;
 }
-h1{
+h1{text-align: center;
     color:brown;
 }
-h3 {
+h3 {text-align: center;
     color: brown;
-}
-main {
+}main {
     background-color:white;
 }
-header {
+header {display: flex;align-items: center ;
     background-color:white;
     border: 5px solid #cdb4db;
     border-radius: 5px;
     padding: 20px;
-}
+    position: sticky;height: 40px;
+    top: 0px;
+    justify-content: space-between;
+}nav{margin-left: 200px;}
 nav a{
     text-decoration: none;
     margin-left: 20px;
@@ -26,46 +28,64 @@ nav a{
 #about img{
     margin: 30px;
 }
+h1{text-align: center;}
 h3{
     font-size: 30px;
 }
-h2 {
+h2 {text-align: center;
     font-size: 30px;
     color:#b41800;
 }
 .acc{
     text-align: center;
-}
+}.ed{ height: 140px;width: 840px; border: #000030 2px solid ;}
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     gap: 10px;
+    
 }
-.grid div{
+ .pr{
     border: #646464 2px solid;
     height: 350px;
     width: 350px;
 }
 .contact{
     background-color: #1B272A;
-    padding: 100px 0;
+    padding: 100px ;border-radius:10px ;box-shadow: 20px 20px 20px solid black;
     color: white;
 }
-.address-container{
+/* .address-container{
     display: flex;
     gap: 40px;
     align-items: center;
-    margin-top: 20px;
-}
+    margin-top: 20px; */
+
 .address-content{
     display: flex;
     flex-direction: column;
+}
+#skills{
+    background-image: linear-gradient(white,green);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 300px;
 }
 .address-title{
     font-weight: bold;
 }
 .address-value{
     font-weight: 450;
+}
+.skill{
+    background-color: #1B272A;
+    height: 150px;
+    width: 150px;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
 }
 .icon{
     font-size: 35px;
@@ -79,27 +99,28 @@ h2 {
     align-items: flex-start;
     gap:20px;
     padding: 0px;
+    
 }
 .form-label{
     font-weight: 600;
 }
 .name-email{
-    display: flex;
+   
     justify-content: space-between;
     gap: 20px;
 }
 input{
-    width: 100%;
+   width: 550px ;
     height: 45px;
     padding: 0px 15px;
     border-radius: 10px;
-    border: none;
+    border: none;margin: 10px;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
 }
 textarea{
-    width: 100%;
+    
     border-radius: 15px;
     padding: 15px;
     font-family: "Poppins", sans-serif;
@@ -131,6 +152,23 @@ input:focus,textarea:focus{
     outline: none;
 }
 #rakesh{
-    display: flex;
+    display: none;
     background-color: rgb(255, 255, 255)!important;}
-    
+.project{padding: 100px;
+    background-color: #000030;
+}
+.contact{
+    background-color: #e5ecfb;
+}#ed{display: flex;flex-direction: column;padding-left: 280px;padding-bottom: 100px;}
+.sec-pro{display: grid;
+    margin-bottom: 40px;
+    background-color: #000030;
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+}
+.intro-2{
+    margin-top: 100px;
+    font-size: 60px;
+}.fo{background-color: #1B272A;}
