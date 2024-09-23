@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 body {
   text-align: center;
   background-color: white;
@@ -7,6 +8,8 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Nunito", sans-serif;
+
 }
 h1 {
   text-align: center;
@@ -112,7 +115,7 @@ h2 {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 30px;
 }
 .pr {
   border: #646464 2px solid;
@@ -263,7 +266,8 @@ input {
 }
 .sec-pro {
   display: grid;
-  margin-bottom: 40px;
+  gap: 100px;
+  place-items: center;
   background-color: #000030;
 }
 .line{
@@ -280,6 +284,10 @@ input {
 }
 .intro-5{
   padding-bottom: 40px;
+}
+.intro-6{
+  padding-bottom: 40px;
+  color: brown;
 }
 .intro-1{
   display: flex;
@@ -321,6 +329,10 @@ align-items: center;
 .flex-child img {
   width: 100%;
   object-fit: cover;
+}
+.pro{
+  color: white;
+  padding-bottom: 40px;
 }
 .input-div {
   width: 100%;
