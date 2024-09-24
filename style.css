@@ -37,6 +37,7 @@ header {
   justify-content: space-between;
 }
 
+
 nav {
   margin-left: 200px;
 }
@@ -276,6 +277,7 @@ input {
 .intro {
   display: flex;
   justify-content: space-around;
+  background-image: url(assets/images/Video.gif);
 }
 
 .intro-2 {
@@ -511,4 +513,9 @@ padding-top: 20px;
 font-size: 18px;
 font-weight: 600;
 padding-bottom: 20px;
+}
+@media(max-width:768px){
+  .intro{
+    flex-wrap: wrap;
+  }
 }
