@@ -552,7 +552,7 @@ padding-bottom: 20px;
 .progress-level {
   height: 100%;
   border-radius: 20px;
-  background-color: black; 
+  background-color: #b41800; 
 }
 
 .html-progress{
@@ -602,6 +602,7 @@ padding-bottom: 20px;
   padding: 20px;
   gap: 20px;
   border-radius: 10px;
+  justify-content: space-between;
   border: 4px solid black;
   transition: 0.9s;
   cursor: pointer;
@@ -609,4 +610,8 @@ padding-bottom: 20px;
     transform: translateY(2px);
   box-shadow: 10px 10px 10px rgba(95, 210, 129, 0.742);
   }
+
+}
+.card-name i{
+  color: #b41800;
 }

@@ -192,7 +192,7 @@
           <div class="cards">
             <div class="card">
               <span class="card-name">
-                Speaking
+                <i class="fa-solid fa-microphone-lines"></i> Speaking
               </span>
               <span class="card-level">
                 Intermediate
@@ -207,7 +207,7 @@
             </div>
             <div class="card">
               <span class="card-name">
-                Writing
+                <i class="fa-solid fa-file-pen"></i> Writing
               </span>
               <span class="card-level">
                 Intermediate
@@ -222,7 +222,7 @@
             </div>
             <div class="card">
               <span class="card-name">
-                Listening
+                <i class="fa-solid fa-headphones"></i> Listening
               </span>
               <span class="card-level">
                 Intermediate
@@ -237,6 +237,7 @@
             </div>
             <div class="card">
               <span class="card-name">
+                <i class="fa-brands fa-readme"></i>
                 Reading
               </span>
               <span class="card-level">
@@ -257,7 +258,7 @@
           <div class="cards">
             <div class="card">
               <span class="card-name">
-                Adaptability & Continuous Learning
+                <i class="fa-solid fa-book"></i> Adaptability & Continuous Learning
               </span>
               <span class="card-level">
                 Intermediate
@@ -272,7 +273,7 @@
             </div>
             <div class="card">
               <span class="card-name">
-                Self Management & Self Awareness
+                <i class="fa-brands fa-sellsy"></i> Self Management & Self Awareness
               </span>
               <span class="card-level">
                 Intermediate
@@ -288,6 +289,7 @@
 
             <div class="card">
               <span class="card-name">
+                <i class="fa-solid fa-handshake"></i>
                 Social Skills
               </span>
               <span class="card-level">
@@ -322,7 +324,7 @@
       <section class="sec-pro">
         <div class="grid">
           <div class="pr"><img src="assets/images/rakesh.jpeg" height="346px" width="346px"></div>
-          <div class="pr"><img src="assets/images/Whatsapp portfolio image.jpg" height="346px" width="346px"></div>
+          <div class="pr"><img src="assets/images/Whatsapp portfolio image.jpg" style="width: 100%;height: 100%;object-fit: cover;"></div>
           <div class="pr"><img src="assets/images/Css Booking Website Image.jpeg" height="346px" width="346px"></div>
         </div>
       </section>
@@ -339,19 +341,20 @@
               <img src="./assets/images/image 1.png">
             </div>
             <div class="flex-child">
-              <form>
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="dd5e0855-5e9d-4a43-8598-99ab1c05acd3">
                 <div class="input-div">
-                  <input type="text" placeholder="Enter Name/Company" class="name">
+                  <input type="text" placeholder="Enter Name/Company" class="name" name="name">
         
                 </div>
                 <div class="input-div">
-                  <input type="text" placeholder="Enter Email" class="email">
+                  <input type="text" placeholder="Enter Email" name="email" class="email">
                 </div>
                 <div class="input-div">
-                  <input type="text" placeholder="Enter Phone" class="phone">
+                  <input type="text" placeholder="Enter Phone" name="phone" class="phone">
                 </div>
                 <div class="input-div">
-                  <textarea rows="5" placeholder="Type your message" class="msg"></textarea>
+                  <textarea rows="5" placeholder="Type your message" name="body" class="msg"></textarea>
                 </div>
                 <div class="btn-div">
                   <button class="btn">Submit <i class="fa-solid fa-paper-plane"></i></button>
