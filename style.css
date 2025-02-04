@@ -556,27 +556,27 @@ padding-bottom: 20px;
 }
 
 .html-progress{
-  width: 100%;
+  width: 80%;
 }
-.sql-progress{
-  width: 100%;
+.css-progress{
+  width: 60%;
 }
 
 .ps-progress{
   width: 100%;
 }
 .js-progress{
-  width: 100%;
+  width: 80%;
 }
 .sql-progress{
-  width: 100%;
+  width: 80%;
 }
 .python-progress{
-  width: 100%;
+  width: 20%;
 }
-.c-progress{
+/* .c-progress{
   width: 100%;
-}
+} */
 .skill-name{
   display: flex;
   justify-content: space-between;
